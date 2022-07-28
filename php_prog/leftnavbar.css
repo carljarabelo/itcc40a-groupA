@@ -1,0 +1,99 @@
+    .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111827;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  color: #808080;
+  display: block;
+  transition: 0.3s;
+    font-size: 10px;
+
+    text-align: center;
+    
+}
+
+.sidenav a:hover {
+    background-color: #555555;
+    color: white;
+  
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+  border-bottom: 0px solid #555;
+  border-radius: 2px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 14px;}
+}
+
+.dropbtn {
+  color: rgba(255, 255, 255, 0.713);
+  border: none;
+  cursor: pointer;
+}
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+.dropdown-content {
+    text-align: match-parent;
+  text-decoration: none;
+  color: #ffffff;
+ 
+  display: block;
+  transition: 0.3s;
+    font-size: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.dropdown-content a {
+    text-align: match-parent;
+  color: rgb(255, 255, 255);
+  background-color: #111827;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #413e3e}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #000000;
+}
+
+.dropdown:hover .dropbtn {
+   color: #f1f1f1;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  font-size: larger;
+    color: rgb(255, 255, 255);
+}

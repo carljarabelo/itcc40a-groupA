@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+
+}
+/* body a, body h1, body h2, body h3, body h4:hover {
+    color: #144170;
+    text-decoration: none;
+} */
+#maincontainer{
+    min-height: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 100%;
+}
+#foooter{
+    height: 100%;
+    margin-top: -100%;
+    clear:both;
+}
+        /* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #ffffff;
+  color: #144170;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {
+    padding:20px;
+  text-align: left;
+  background: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  width:100%;
+}
+
+
+
+.photocontainer {
+    align-items: center;
+    max-width: 100%;
+    padding:5px;
+    width:100%;
+}
+.iconDetails {
+  align-items: center;
+ padding: 20px;
+ border: 20px;
+ min-width: 100px;
+ max-width: 600px;
+ } 
+li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: none;
+ }
+ em {
+    color: rgba(75, 75, 75, 0.545);
+ }
+  
+
+ .aboutpage
+ {
+  padding:20px;
+  text-align: left;
+  background: #ffffff;
+  color: #000000;
+  font-size: 15px
+
+ }
+
+img{
+  width:100%;
+
+}
+
+
+
+header{
+  background-color: #111827; 
+}

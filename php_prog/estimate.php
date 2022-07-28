@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Xavier University</title>
+<?php include("./partials/header.php")?>
+
+</head>
+<body>
+<header>
+	<div class="topnav">
+			<div class="search-container">
+			  <form action="/action_page.php">
+				<input type="text" placeholder="Search.." name="search">
+			  </form>
+			</div>
+		</div>
+	<img src="logo.png" style="max-width: 250px ; padding: 5px 5px 5px 50px;" alt="XULogo">
+		
+	
+	<!-- <div class="container"> </div> -->
+	<nav class="navbar" id="nav">
+	<?php include("./partials/navigation.php")?>
+	</nav>
+	<div class="icon-bar">
+			
+			<span style="font-size:30px;cursor:pointer;" onclick="openNav()" >&#9776;</span>
+		  </div>
+        
+	<section>
+		<!-- this is the side havigation -->
+		<div id="mySidenav" class="sidenav">
+		<?php include("./partials/leftnavigation.php")?>
+	   </div>
+           <article>
+            <div id="main" class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+
+               
+            <img src="Photo1.jpeg" alt="">
+            <div class="header">
+               <h1>Estimated Tuition & School Fees</h1>  
+            <hr>
+
+               <div class="content">
+               <div itemprop="articleBody"><p><img src="https://www.xu.edu.ph/images/admission/img/ADMISSION_LAYOUT_copy1.PNG" data-src="https://www.xu.edu.ph/images/admission/img/ADMISSION_LAYOUT_copy1.PNG" alt="ADMISSION LAYOUT copy1" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/admission/img/ADMISSION_LAYOUT_copy1.PNG alt="ADMISSION LAYOUT copy1"/></noscript></p><p>Xavier University strives to provide top quality education while keeping the costs low. In addition, there are different types of aid and scholarships for students in need of financial assistance.</p><p>Despite the uncertainty of the COVID-19 pandemic, Xavier Ateneo remains committed in bringing quality education marked with the Jesuit brand of excellence.&nbsp;&nbsp;</p><p><strong>Download the breakdown of tuition and school fees per level here:</strong></p><h3>Tuition Fees for Higher Ed Students</h3><p><em>(Law Fees Updated 24 May 2022)</em></p><p><a href="https://drive.google.com/file/d/1KRE8M2osWQN56KfVHKwIbacxl37S4qUg/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>(SY 2020-21 &amp; SY 2021-22 Discounted Rates)</em></p><blockquote><p><a href="https://drive.google.com/file/d/1TKY-ypNl_YgbtGGFINEjklRaYRW6TPXR/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>(SY 2022-23 Discounted Rates)</em></p><p><a href="https://drive.google.com/file/d/1bYhusLr1upPRwkSEgyT7Tck_plPM-VTS/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>(Per Program Total Costs SY 2022-23 Sem1)</em></p></blockquote><h3>&nbsp;</h3><h3>Law</h3><blockquote><p><a href="https://drive.google.com/file/d/1_NZOGRCzMREKa9Ky-M946oYrG1dBws1v/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>UPDATED College of Law<em>&nbsp;Tuition&nbsp;&amp; Fees&nbsp;</em><em>for SY 2022-23</em></em></p></blockquote><h3>School of Medicine</h3><blockquote><p><a href="https://drive.google.com/file/d/1z3GjbC5qe-S-Ujo0qnjdoYSPCKhAAxlM/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a><a href="https://drive.google.com/file/d/1dkolHEYxfFVQSP7Tfhz73wVOdA5kvx-i/view?usp=sharing"><br><br></a><em>UPDATED School of Medicine<em>&nbsp;Tuition&nbsp;&amp; Fees&nbsp;</em><em>for SY 2021-22</em></em></p><p><a href="https://drive.google.com/file/d/1Vsud94ofFjBxZ3SapnVXhXJacVyZchNo/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a><a href="https://drive.google.com/file/d/1dkolHEYxfFVQSP7Tfhz73wVOdA5kvx-i/view?usp=sharing"></a></p><p><em>UPDATED School of Medicine<em>&nbsp;Tuition&nbsp;&amp; Fees&nbsp;</em><em>for SY 2022-23</em></em></p></blockquote><h3>*Tuition Fees for Basic Ed Students (SY 2022-2023)</h3><blockquote><a href="https://drive.google.com/file/d/1XFQ7dWgelFCtN6d5YGEOgxgwxrhXtUbG/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a> <p><em>UPDATED XUSHS <em>Discounted Tuition&nbsp;&amp; Fees&nbsp;</em>- Grade 12&nbsp;<em>for SY 2022-23</em></em></p><p>&nbsp;</p><p><a href="https://drive.google.com/file/d/1e1De-Wfd9lLTmki-V7nVGuOVN_Nlqt8H/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>UPDATED XUSHS Discounted Tuition&nbsp;&amp; Fees - Grade 11 for SY 2022-23</em></p><p><a href="https://drive.google.com/file/d/1ZY8UzFeJc4mytekTt3Pgvp6ToejpU1xn/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>XUSHS&nbsp;<em>Breakdown Tuition&nbsp;&amp; Fees</em></em></p><p>&nbsp;</p><p><a href="https://drive.google.com/file/d/1Wf_Cz3p1zoBeTTAqb6OsDGGvT4bKJ1Lr/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>UPDATED XUJHS&nbsp;<em>Discounted Tuition&nbsp;&amp; Fees for SY 2022-23<br></em></em></p><p><a href="https://drive.google.com/file/d/1N4pIpLBiNJafpJ8_acZCavBw1c3PlTZ9/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>XUJHS&nbsp;<em>Breakdown Tuition&nbsp;&amp; Fees</em></em></p><p><em><em></em><br></em></p><p>&nbsp;</p><p><a href="https://drive.google.com/file/d/1dWHJcPk5Md8ASMKUIuWStyX_pO3O9OWI/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>UPDATED XUGS&nbsp;<em>Discounted Tuition&nbsp;&amp; Fees for SY 2022-23<br></em></em></p><p><a href="https://drive.google.com/file/d/163K8r06Fht1ViTMIC1kK9Y-xEBfdIa8M/view?usp=sharing"><img src="https://www.xu.edu.ph/images/system_images/feees.png" data-src="https://www.xu.edu.ph/images/system_images/feees.png" alt="Descriptio" width="154" height="83" style="display: inline;"><noscript><img src=https://www.xu.edu.ph/images/system_images/feees.png alt=Descriptio width=154 height=83 /></noscript></a></p><p><em>XUGS&nbsp;<em>BreakdownTuition&nbsp;&amp; Fees</em></em></p><p><em><em>&nbsp;</em></em></p></blockquote><p>&nbsp;</p><div class="bt-social-share bt-social-share-below"><div class="bt-social-share-button bt-facebook-share-button"><fb:share-button href="https://www.xu.edu.ph/tuition-and-fees" type="button_count" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.xu.edu.ph%2Ftuition-and-fees&amp;locale=en_GB&amp;sdk=joey&amp;type=button_count"><span style="vertical-align: bottom; width: 85px; height: 20px;"><iframe name="f3de06f7800955c" width="1000px" height="1000px" data-testid="fb:share_button Facebook Social Plugin" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/plugins/share_button.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3ff8655e76b214%26domain%3Dwww.xu.edu.ph%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.xu.edu.ph%252Ff2edb744d023d54%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.xu.edu.ph%2Ftuition-and-fees&amp;locale=en_GB&amp;sdk=joey&amp;type=button_count" style="border: none; visibility: visible; width: 85px; height: 20px;" class=""></iframe></span></fb:share-button></div><div class="bt-social-share-button bt-twitter-button" style="width:80px"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 74px; height: 20px;" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.dc05643fdb8d0e2b89e5cc3c1d26d1b5.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.xu.edu.ph%2Ftuition-and-fees&amp;size=m&amp;text=Xavier%20University%20-%20Estimated%20Tuition%20and%20School%20Fees&amp;time=1658477806421&amp;type=share&amp;url=https%3A%2F%2Fwww.xu.edu.ph%2Ftuition-and-fees&amp;via=XavierAteneo" data-url="https://www.xu.edu.ph/tuition-and-fees"></iframe></div></div><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div> <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}
+js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_GB/all.js#xfbml=1";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script><script src="//platform.twitter.com/widgets.js"></script> </div>
+            </div>
+            </div>
+</article>
+       
+	</section>
+
+
+
+    <footer class="footer">
+    <?php include("./partials/footer.php")?>
+    
+    </footer>
+    </body>
+    </html>
